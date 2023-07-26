@@ -4,6 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Fruit Burst</title>
+     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
       <!-- -------------------google font------------------ -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +37,7 @@
      <header class=" px-8 lg:px-32">
           <!-- ------------------------Navbar Section------------------ -->
           <section class="lg:bg-primary-color mt-5 rounded-full lg:p-4">
-               <div class="flex justify-between  items-center  lg:text-white  ">
+               <div class="flex  justify-between  items-center  lg:text-white  ">
                     <div class="lg:hidden">
                          
                       <div class="dropdown ">
@@ -50,7 +51,7 @@
                           <li><a>Shop</a></li>
                           <li><a>All Fruits</a></li>
                           <div class="flex-1 p-3 bg-white rounded-full  ">
-                            <input class="outline-none " type="text" placeholder="Search here">
+                            <input class="outline-none w-32" type="text" placeholder="Search here">
                             <i class="  fa-solid fa-magnifying-glass text-[#5e5c5c] "></i>
                           </div>
                         </ul>
@@ -140,8 +141,10 @@
                    </div>
                  </div>
             </div>
-          </section>
-            <!-- -------------banner fruits list------------------------------- -->
+          </section>  
+     </header>
+     <main class="px-8 lg:px-32">
+ <!-- -------------banner fruits list------------------------------- -->
             <section class="lg:mb-11">
             <div class="relative bg-white h-50 w-[900px] ml-24 -mt-28 shadow-md rounded-md hidden lg:block">
               <div class="flex justify-between items-center text-center p-10">
@@ -565,16 +568,31 @@
               </div>
             </div>
           </section>
-
-         
-          
-     </header>
-     <main>
-
      </main>
-     <footer>
-
-     </footer>
+     <footer class="footer footer-center lg:p-10 bg-black text-white">
+      <div class="grid grid-flow-col mt-9">
+        <img class="w-8" src="./images/logo.png" alt="">
+        <h1 class="text-3xl font-bold">Fruit Burst</h1>
+      </div>
+      <div class="flex lg:flex  flex-wrap items-center px-10 lg:px-0  gap-8 text-md font-semibold">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About Us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">Support</a> 
+        <a class="link link-hover">My Account</a>
+      </div> 
+      <div>
+        <div class="grid grid-flow-col items-center gap-8 cursor-pointer mb-5 ">
+          <a><img class="w-7" src="./images/twitter 1.png" alt=""></a> 
+          <a><img class="w-7" src="./images/facebook 1.svg" alt=""></a> 
+          <a><img class="w-7" src="./images/youtube.png" alt=""></a>
+          <a><img class="w-7" src="./images/linkedin 1.png" alt=""></a> 
+          <a><img class="w-7" src="./images/instagram 1.svg" alt=""></a> 
+          <a><img class="w-7" src="./images/apple 1.png" alt=""></a>
+        </div>
+      </div> 
+    </footer>
      
 </body>
 </html>
